@@ -1,0 +1,25 @@
+.App{
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header{
+  flex-basis: 30vh;
+}
+
+main{
+  display: flex;
+  flex-grow:1;
+}
+
+aside{
+  min-width: 230px;
+  padding: 10px;
+}
+
+section{
+  flex-grow:1; 
+}
